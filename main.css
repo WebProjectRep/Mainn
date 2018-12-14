@@ -1,0 +1,96 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+}
+.main{
+	display: flex;
+	justify-content: space-around;
+}
+.items{
+	word-spacing: 4em;
+}
+.items a{
+	color: black;
+	text-decoration-line: none;
+	font-size: 15px;
+	position: relative;
+	top: 7px;
+}
+.vhod a{
+	color: black;
+	text-decoration-line: none;
+	font-size: 15px;
+	position: relative;
+	top: 7px;
+
+}
+.name a{
+	color: black;
+	text-decoration-line: none;
+	font-size: 30px;
+	font-family: 'Sirin Stencil', cursive;
+}
+.it{
+	text-align: center;
+	font-size: 12px;
+	font-family: 'Sirin Stencil', cursive;
+}
+.image1{
+	width: 30%;
+}
+.image2{
+	width: 30%;
+}
+.image1 img{
+	float: left;
+}
+.image2 img{
+	float: right;
+}
+.images{
+	display: inline-flex;
+}
+.text{
+	width: 40%;
+	text-align: center;
+	position: relative;
+	top: 100px;
+}
+.text a{
+	color: black;
+	text-decoration-line: none;
+	font-size: 12px;
+	font-family: 'Sirin Stencil', cursive;
+	position: relative;
+}
+.text .p1 p{
+	font-size: 60px;
+}
+.a{
+	word-spacing: 2em;
+}
+.p2{
+	position: relative;
+	top: 150px;
+}
+.p2 p{
+	font-size: 20px;
+}
+.p2 .a2{
+	word-spacing: 2em;
+}
+.PP{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	top: 70px;
+}
+.PP a{
+	font-size: 40px;
+	padding: 20px;
+	font-family: bold;
+}
+
